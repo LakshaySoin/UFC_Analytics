@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact element={<Home />} />
-          <Route path='/predictions' exact element={<Predictions />} />
-          <Route path='/video-analytics' exact element={<Videos />} />
+          <Route path='./' exact element={<Home />} />
+          <Route path='./predictions' exact element={<Predictions />} />
+          <Route path='./video-analytics' exact element={<Videos />} />
         </Routes>
       </Router>
     </>
