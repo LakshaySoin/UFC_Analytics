@@ -94,7 +94,9 @@ const Event = (props) => {
                             <p>{entry.RedFighter}</p>
                             <p>{parseInt(entry.Result) === 0 ? 'Blue' : 'Red'}</p>
                             <p>{odds[index] === 0 ? 'Blue' : 'Red'}</p>
+                            {result != null && 
                             <p className={parseInt(entry.Result) === result[index] ? 'green' : 'red'}>{result[index] === 0 ? 'Blue' : 'Red'}</p>
+                            } 
                         </div>
                     ))}
                 </div>
