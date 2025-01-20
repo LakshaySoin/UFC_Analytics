@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/UFC_Analytics/static/css/main.5c93153c.css",
-    "main.js": "/UFC_Analytics/static/js/main.445986ca.js",
+    "main.css": "/UFC_Analytics/static/css/main.186da024.css",
+    "main.js": "/UFC_Analytics/static/js/main.ea67e309.js",
     "static/media/ufc-background.jpg": "/UFC_Analytics/static/media/ufc-background.4d961d9bc89c3db3306d.jpg",
     "static/media/ufc-logo.svg": "/UFC_Analytics/static/media/ufc-logo.b7b0df2226958a70a16466f3198179a4.svg",
     "index.html": "/UFC_Analytics/index.html",
-    "main.5c93153c.css.map": "/UFC_Analytics/static/css/main.5c93153c.css.map",
-    "main.445986ca.js.map": "/UFC_Analytics/static/js/main.445986ca.js.map"
+    "main.186da024.css.map": "/UFC_Analytics/static/css/main.186da024.css.map",
+    "main.ea67e309.js.map": "/UFC_Analytics/static/js/main.ea67e309.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c93153c.css",
-    "static/js/main.445986ca.js"
+    "static/css/main.186da024.css",
+    "static/js/main.ea67e309.js"
   ]
 }
