@@ -11,8 +11,8 @@ function Home() {
         <h1 className='header'>Analytics</h1>
       </div>
       <div className='buttons'>
-        <Link to='/predictions' className='prediction-button'>Future Fight Predictions</Link>
-        <Link to='/video-analytics'className='video-analytics-button'>Video Analysis of Fights</Link>
+        <Link to='./predictions' className='prediction-button'>Future Fight Predictions</Link>
+        <Link to='./video-analytics'className='video-analytics-button'>Video Analysis of Fights</Link>
       </div>
     </div>
   )

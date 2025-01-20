@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import './Event.css'
-import Papa from 'papaparse';
 
 const Event = (props) => {
     const title = props.title;
@@ -31,7 +30,7 @@ const Event = (props) => {
     useEffect(() => {
         const loadPredictions = async () => {
           try {
-            const response = await fetch(`UFC_Analytics/${event}.csv`);
+            const response = await fetch(`${event}.csv`);
             if (!response.ok) {
               throw new Error(`Failed to fetch: ${response.statusText}`);
             }
@@ -42,6 +41,7 @@ const Event = (props) => {
             // Now `parsedPredictions` is an array, so you can use .map
             parsedPredictions.map(prediction => {
                 console.log(`Red: ${prediction.RedFighter}, Blue: ${prediction.BlueFighter}, Result: ${prediction.Result}`);
+                return null;
             });
 
             setPredictions(parsedPredictions);
