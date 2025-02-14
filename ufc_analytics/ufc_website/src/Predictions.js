@@ -8,12 +8,15 @@ function Predictions() {
   const ufc_fight_night_1_odds = [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0];
   const ufc_fight_night_1_winners = [0, 0, 1, 0, -1, 1, 1, 1, 1, 1, 1, 1, -1];
   const ufc_312_odds = [1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1]
+  const ufc_312_winners = [1, 1, 0, -2, 1, 0, 1, 1, 0, 1, 1, 1, -1]
+  const ufc_fight_night_2_odds = [0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0];
 
   return (
     <div>
       <h1 className='head'>Upcoming Event</h1>
-      <Event title={"UFC 312: Du Plessis vs Strickland 2"} event="UFC312" odds={ufc_312_odds} result={null} />
+      <Event title={"UFC Fight Night: Cannonier vs Rodrigues"} event={"FightNight2"} odds={ufc_fight_night_2_odds} result={null} />
       <h1 className='head'>Past Events</h1>
+      <Event title={"UFC 312: Du Plessis vs Strickland 2"} event="UFC312" odds={ufc_312_odds} result={ufc_312_winners} />
       <Event title={"UFC Fight Night: Adesanya vs. Imavov"} event={"FightNight1"} odds={ufc_fight_night_1_odds} result={ufc_fight_night_1_winners} />
       <Event title={"UFC 311: Makhachev vs. Moicano"} event={"UFC311"} odds={ufc_311_odds} result={ufc_311_winners} />
     </div>
